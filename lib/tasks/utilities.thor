@@ -24,7 +24,7 @@ class Utilities < Thor
     run("cp #{FOLDER_SRC}/dist/air-datepicker.css vendor/assets/stylesheets/air-datepicker-rails/")
     run("cp #{FOLDER_SRC}/dist/*.js vendor/assets/javascripts/air-datepicker-rails/")
     run("cp #{FOLDER_SRC}/dist/*.ts vendor/assets/javascripts/air-datepicker-rails/")
-    run("cp #{FOLDER_SRC}/dist/locale/* vendor/assets/javascripts/air-datepicker-rails/locales/")
+    run("cp #{FOLDER_SRC}/src/locale/* vendor/assets/javascripts/air-datepicker-rails/locales/")
 
     run("git status")
 
